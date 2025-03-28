@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <form id="search-form">
+                <input type="text" id="city-input" placeholder="Enter city name...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="units">
+                <button id="celsius" class="active">°C</button>
+                <button id="fahrenheit">°F</button>
+            </div>
+        </header>
+
+        <section id="kenyan-cities">
+            <h2>Popular Cities</h2>
+            <div id="popular-cities-list">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <section id="weather-display">
+            <div id="current-weather">
+                <!-- Current weather data will load here -->
+                <div id="loader" class="hidden"></div>
+            </div>
+            
+            <div id="forecast">
+                <h2>5-Day Forecast</h2>
+                <div id="forecast-cards">
+                    <!-- Forecast cards will load here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="saved-locations">
+            <h2>Saved Locations</h2>
+            <div id="locations-list">
+                <!-- Saved locations will load here -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Weather Dashboard | Data from OpenWeatherMap</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
