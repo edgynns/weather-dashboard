@@ -3,7 +3,7 @@
 A simple, user-friendly application for checking weather conditions and forecasts with a focus on Kenyan cities.
 
 ## Author
-[Your Name]
+Edgar Muchemi
 
 ## Description
 Weather Dashboard is a single page application that allows users to:
@@ -30,8 +30,3 @@ Built with HTML, CSS, and JavaScript, this application communicates with the Ope
 - CSS3
 - JavaScript (ES6)
 - OpenWeatherMap API
-
-## License
-Copyright (c) 2025 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction.
